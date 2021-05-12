@@ -1,0 +1,32 @@
+
+.my_nav{
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.3);
+    background-color: rgb(255 255 255 / 87%) !important;
+    backdrop-filter: blur(10px);
+}
+.list-group a{
+    color: black;
+    padding-top: 20px;
+}
+.container-fluid{
+    padding-top: 80px;
+}
+.pagination{
+    padding-left: 700px;
+}
+.btn-warning{
+    margin-left: 400px;
+}
+.btn-danger{
+    margin-right: 100px;
+}
+#add{
+    margin-left: 100px;
+}
+.form-div{
+    margin-top :20px;
+    border :1px solid gray;
+    padding-top :15px;
+    padding-bottom: 15px;;
+}
+

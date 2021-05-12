@@ -1,0 +1,27 @@
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+      <?php foreach($items as$item) : ?>
+
+    <tr>
+      <th scope="row">1</th>
+      <td>
+          <img src ="images/<?php echo $item['i_image'] ;?>" width = "100"  height = "100" />
+      </td>
+      <td>
+          <?php echo $item['i_title']; ?>
+      </td>
+      <td>
+          <?php echo $item['i_description']; ?>
+      </td>
+    </tr>
+      <?php endforeach; ?>
+  </tbody>
+</table>

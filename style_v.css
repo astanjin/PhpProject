@@ -1,0 +1,54 @@
+.default-header{
+    background-image: url(images/Banner.jpg);
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.header-text-holder, .subscribe-holder{
+    text-align: center;
+    color: white;
+}
+.default-header-text-holder{
+    color: white;
+}
+.default-header-text-holder h1{
+    font-size: 2em;
+}
+.header-text-holder, .subscribe-holder{
+    text-align: center;
+    color: white;
+}
+.default-header-text-holder{
+    color: white;
+}
+.default-header-text-holder h1{
+    font-size: 2em;
+}
+.home-body-content, .default-body-content{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.default-body-content .list-group .list-group-item h3{
+    font-size: 1.3em;
+}
+.default-body-content .list-group a{
+    color: black;
+    padding-top: 20px;
+}
+.home-body-content {
+    margin-bottom: 25px;
+    transition-duration: 0.4s;
+}
+footer.main-footer {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: white;
+    background-color: gray;
+}
+footer.main-footer p{
+    margin: 0px;
+}
+#img{
+    margin-left: 100px;
+}
+
